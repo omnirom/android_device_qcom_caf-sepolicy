@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98faad2e_62d0d521",
+        "filename": "common/system_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000124
+      },
+      "writtenOn": "2016-04-27T14:39:36Z",
+      "side": 0,
+      "message": "this conflicted, so i just removed it as it is not in upstream",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 56
+      },
+      "revId": "9e4810d90044e6c3346032c8b2514c87bc10b21b",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
