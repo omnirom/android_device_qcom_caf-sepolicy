@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fbcea4e4_e602295c",
+        "filename": "sepolicy.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2017-09-02T14:32:13Z",
+      "side": 1,
+      "message": "we must use +\u003d here else our sepolicy chain will break and dont include parent BOARD_SEPOLICY_DIRS",
+      "revId": "21eb285c82f933b7c98db6fe22be8bb6d2266f48",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1e3c5674_ccfb4d85",
+        "filename": "sepolicy.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2017-09-02T14:32:13Z",
+      "side": 1,
+      "message": "also\nsystem/sepolicy/Android.mk:$(error BOARD_PLAT_PUBLIC_SEPOLICY_DIR must only contain one directory) - so this will break if there is more then one anyway - guess we should only add that one",
+      "revId": "21eb285c82f933b7c98db6fe22be8bb6d2266f48",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
