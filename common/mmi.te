@@ -74,6 +74,7 @@ allow mmi ssr_device:chr_file r_file_perms;
 
 #SD card case
 allow mmi sd_device:blk_file rw_file_perms;
+allow mmi sdcard_posix:blk_file rw_file_perms;
 allow mmi block_device:blk_file getattr;
 allow mmi block_device:dir r_dir_perms;
 
