@@ -46,6 +46,7 @@ type sg_device, dev_type;
 type dip_device, dev_type;
 type mdtp_device, dev_type;
 type sd_device, dev_type;
+type sdcard_posix, dev_type;
 
 #ESOC device
 type esoc_device, dev_type;
