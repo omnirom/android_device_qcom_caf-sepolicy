@@ -143,7 +143,7 @@ type ssgqmig_socket, file_type, mlstrustedobject;
 type ssgtzd_socket, file_type, mlstrustedobject;
 
 #location file types
-type location_data_file, file_type, data_file_type;
+type location_data_file, file_type, data_file_type, core_data_file_type;
 type location_socket, file_type, data_file_type;
 type location_app_data_file, file_type, data_file_type;
 
