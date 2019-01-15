@@ -1,4 +1,4 @@
-# Copyright (c) 2018, The Linux Foundation. All rights reserved.
+# Copyright (c) 2016, 2018, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -26,3 +26,4 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ctl.vendor.cdsprpcd         u:object_r:vendor_cdsprpcd_prop:s0
+vendor.media.sdm660.version      u:object_r:vendor_media_sdm660_version_prop:s0
