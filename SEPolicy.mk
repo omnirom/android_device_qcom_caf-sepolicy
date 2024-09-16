@@ -4,8 +4,8 @@ LOCAL_PATH := $(call my-dir)
 BOARD_SYSTEM_EXT_PREBUILT_DIR := device/qcom/sepolicy/generic
 BOARD_PRODUCT_PREBUILT_DIR := device/qcom/sepolicy/generic/product
 BOARD_PLAT_PUB_VERSIONED_POLICY := device/qcom/sepolicy
-$(shell $(SEPOLICY_PATH)/append.sh)
-
+#$(shell $(SEPOLICY_PATH)/append.sh)
+	                           
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := \
     $(SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/generic/public
@@ -23,3 +23,13 @@ PRODUCT_PUBLIC_SEPOLICY_DIRS := \
 PRODUCT_PRIVATE_SEPOLICY_DIRS := \
     $(PRODUCT_PRIVATE_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/generic/product/private
+
+#SEPOLICY_FREEZE_TEST_EXTRA_DIRS := $(SEPOLICY_PATH)/generic/public \
+	                         $(SEPOLICY_PATH)/generic/private \
+                                 $(SEPOLICY_PATH)/generic/product/public \
+				 $(SEPOLICY_PATH)/generic/product/private
+
+#SEPOLICY_FREEZE_TEST_EXTRA_PREBUILT_DIRS := $(SEPOLICY_PATH)/generic/prebuilts/api/202404/public \
+	                                    $(SEPOLICY_PATH)/generic/prebuilts/api/202404/private \
+					    $(SEPOLICY_PATH)/generic/product/prebuilts/api/202404/public \
+					    $(SEPOLICY_PATH)/generic/product/prebuilts/api/202404/private

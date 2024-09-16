@@ -64,3 +64,5 @@ unix_socket_connect(platform_app, vendor_dpmtcm, vendor_tcmd);
 
 # allow platform_app access to hal service
 hal_client_domain(platform_app, vendor_hal_dspmanager);
+
+qesdk_app_access(platform_app);

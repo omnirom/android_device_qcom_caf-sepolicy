@@ -59,6 +59,10 @@ attribute vendor_hal_display_demura;
 attribute vendor_hal_display_demura_client;
 attribute vendor_hal_display_demura_server;
 
+attribute vendor_hal_display_aiqe;
+attribute vendor_hal_display_aiqe_client;
+attribute vendor_hal_display_aiqe_server;
+
 # All types in /mnt/vendor/persist
 attribute vendor_persist_type;
 
@@ -131,6 +135,10 @@ attribute vendor_hal_iop;
 attribute vendor_hal_iop_client;
 attribute vendor_hal_iop_server;
 
+attribute vendor_hal_MemHal;
+attribute vendor_hal_MemHal_client;
+attribute vendor_hal_MemHal_server;
+
 attribute vendor_hal_soter;
 attribute vendor_hal_soter_client;
 attribute vendor_hal_soter_server;
@@ -150,6 +158,10 @@ attribute vendor_hal_pasrmanager_server;
 attribute vendor_hal_qseecom;
 attribute vendor_hal_qseecom_client;
 attribute vendor_hal_qseecom_server;
+
+attribute vendor_hal_minkipcbinder;
+attribute vendor_hal_minkipcbinder_client;
+attribute vendor_hal_minkipcbinder_server;
 
 attribute vendor_hal_secureprocessor;
 attribute vendor_hal_secureprocessor_client;
@@ -294,6 +306,11 @@ attribute vendor_hal_sxrservice_qti_socket_client;
 attribute vendor_hal_sxrservice_qti_socket_fd_use_client;
 attribute vendor_sys_sxrauxservice_qti_socket_client;
 
+attribute vendor_hal_xrcommservice_qti;
+attribute vendor_hal_xrcommservice_qti_client;
+attribute vendor_hal_xrcommservice_qti_server;
+attribute vendor_hal_xrcommservice_qti_socket_client;
+
 attribute vendor_hal_mwqemadapter_qti;
 attribute vendor_hal_mwqemadapter_qti_client;
 attribute vendor_hal_mwqemadapter_qti_server;
@@ -331,6 +348,31 @@ attribute vendor_hal_qspa_qti;
 attribute vendor_hal_qspa_qti_client;
 attribute vendor_hal_qspa_qti_server;
 
+attribute vendor_hal_xpanprovider;
+attribute vendor_hal_xpanprovider_client;
+attribute vendor_hal_xpanprovider_server;
+
 attribute vendor_hal_cacert_qti;
 attribute vendor_hal_cacert_qti_client;
 attribute vendor_hal_cacert_qti_server;
+
+attribute vendor_hal_systemhelper;
+attribute vendor_hal_systemhelper_client;
+attribute vendor_hal_systemhelper_server;
+
+attribute vendor_syshealthmon;
+attribute vendor_syshealthmon_client;
+attribute vendor_syshealthmon_server;
+
+attribute vendor_hal_c2pa;
+attribute vendor_hal_c2pa_client;
+attribute vendor_hal_c2pa_server;
+
+attribute vendor_hal_qvirtvendor;
+attribute vendor_hal_qvirtvendor_client;
+attribute vendor_hal_qvirtvendor_server;
+
+# attributes for snapdragon services hal
+attribute vendor_hal_snapx_service_qti;
+attribute vendor_hal_snapx_service_qti_client;
+attribute vendor_hal_snapx_service_qti_server;
