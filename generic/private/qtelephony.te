@@ -51,3 +51,5 @@ allow vendor_qtelephony vendor_dpmtcm_socket:sock_file write;
 allow vendor_qtelephony vendor_dpmd:unix_stream_socket connectto;
 
 hal_client_domain(vendor_qtelephony, hal_telephony)
+
+hal_client_domain(vendor_qtelephony, vendor_hal_imsvthal);

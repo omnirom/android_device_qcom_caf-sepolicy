@@ -26,7 +26,7 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 # Changes from Qualcomm Innovation Center are provided under the following license:
-# Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
+# Copyright (c) 2023, 2024 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
 ro.vendor.qti.va_aosp.support       u:object_r:vendor_exported_system_prop:s0 exact bool
@@ -84,6 +84,9 @@ persist.vendor.sys.debug.wfd.             u:object_r:vendor_wfd_sys_debug_prop:s
 vendor.sys.debug.wfd.                     u:object_r:vendor_wfd_sys_debug_prop:s0
 persist.vendor.setWFDInfo.R2              u:object_r:vendor_wfd_sys_prop:s0
 
+#Game Post-Process
+vendor.gpp.                      u:object_r:vendor_sys_gpp_prop:s0
+
 # WIGIG
 persist.vendor.wigig.                      u:object_r:vendor_wigig_core_prop:s0
 persist.vendor.fst.                        u:object_r:vendor_fst_prop:s0
@@ -109,3 +112,7 @@ ro.vendor.power.tuning.support             u:object_r:vendor_exported_system_pro
 
 #bugreport disable critical cpu info property
 vendor.sys.bugreport.cpuinfo.disable         u:object_r:vendor_sys_bugreport_cpuinfo_disable:s0
+
+vendor.sys.ims.                                  u:object_r:vendor_sys_ims_prop:s0
+persist.vendor.sys.ims.                          u:object_r:vendor_sys_ims_prop:s0
+persist.vendor.sys.qti.telephony.vt_cam_interface u:object_r:vendor_sys_ims_prop:s0

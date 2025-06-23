@@ -142,4 +142,6 @@
 (typeattributeset vendor_seempdw_socket_202404 (vendor_seempdw_socket))
 (expandtypeattribute (vendor_seempdw_socket_202404) true)
 (typeattribute vendor_seempdw_socket_202404)
-
+(typeattributeset vendor_persist_ntn_prop_202404 (vendor_persist_ntn_prop))
+(expandtypeattribute (vendor_persist_ntn_prop_202404) true)
+(typeattribute vendor_persist_ntn_prop_202404)

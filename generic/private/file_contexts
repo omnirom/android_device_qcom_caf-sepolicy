@@ -52,6 +52,7 @@
 /(system_ext|system/system_ext)/bin/dpmd        u:object_r:vendor_dpmd_exec:s0
 /(system_ext|system/system_ext)/bin/tcmd        u:object_r:vendor_tcmd_exec:s0
 /system/bin/vpsservice                          u:object_r:vendor_vpsservice_exec:s0
+/system/bin/gppservice                          u:object_r:vendor_gppservice_exec:s0
 
 ####### system_ext file ###############
 /(system_ext|system/system_ext)/bin/dun-server  u:object_r:vendor_dun-server_exec:s0
@@ -71,6 +72,7 @@
 /(system_ext|system/system_ext)/bin/qxrsplitauxservice  u:object_r:vendor_sys_sxrauxd_exec:s0
 /(system_ext|system/system_ext)/bin/qsguard  u:object_r:qsguard_exec:s0
 /system_ext/bin/usbudev  u:object_r:vendor_usbudev_qti_exec:s0
+/(system_ext|system/system_ext)/bin/imsvtdaemon u:object_r:vendor_imsvtdaemon_exec:s0
 
 ####### data files ################
 /data/dpm(/.*)?                                 u:object_r:vendor_dpmd_data_file:s0

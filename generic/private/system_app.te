@@ -24,6 +24,10 @@
 # WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Changes from Qualcomm Innovation Center, Inc. are provided under the following license:
+# Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
 
 # access to seemp folder
 allow system_app vendor_seemp_data_file:dir r_dir_perms;
@@ -43,8 +47,14 @@ set_prop(system_app, vendor_wlc_prop);
 # allow system_app access to wigig Property
 get_prop(system_app, vendor_wigig_core_prop);
 
+#allow system_app access to vendor_wlc_public_prop
+get_prop(system_app, vendor_wlc_public_prop);
+
 #allow system_app to access faceauth
 hal_client_domain(system_app, hal_face)
+
+# allow system_app access to GPP Property
+set_prop(system_app, vendor_sys_gpp_prop);
 
 # allow system_app to access IWifiMyFtm AIDL service
 userdebug_or_eng(`
